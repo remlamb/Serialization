@@ -96,8 +96,6 @@ bool SerializeIncludingVersion(lbp_serializer* LbpSerializer, game_score_state* 
 int main()
 {
 	lbp_serializer newSerialize;
-	newSerialize.DataVersion = SV_RemoveP3P4Score;
-
 	//score we write
 	game_score_state currentScore;
 	currentScore.P1Score = 120;
